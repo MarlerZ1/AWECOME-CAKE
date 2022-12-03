@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="JS/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"s href="Img/icon.png">
+    <title>Контакты</title>
+  </head>
+  <body onload="getNum()">
+
+    <header>
+      <img src="Img\Logo.png" alt="AWESOME CAKE - Магазинчик сладостей - Логотип" id="mailLogo">
+      <div id="regBar"> <a href="Authentication.html">Войти</a> <a href="Registration.html">Регистрация</a></div>
+    </header>
+
+
+    <nav>
+      <div class="navContainer">
+        <a href="Delivery.html">Доставка</a>
+      </div>
+      <div class="navContainer">
+        <a href="Contacts.html">Контакты</a>
+      </div>
+      <div class="navContainer">
+        <a href="AboutUs.html">О нас</a>
+      </div>
+    </nav>
+
+  <section class="top-nav">
+    <div></div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li> <a href="Authentication.html">Авторизация</a></li>
+      <li> <a href="Registration.html">Регистрация</a></li>
+      <li> <a href="AboutUs.html">О нас</a></li>
+      <li> <a href="Contacts.html">Контакты</a></li>
+      <li> <a href="Delivery.html">Доставка</a></li>
+    </ul>
+  </section>
+
+    <div class="sidebar">
+      <div class="productcat">
+        <h3>Категории Товаров</h3>
+        <hr>
+        <ul>
+          <li> <a href="index.html">Торты</a> </li>
+          <li> <a href="Cookies.html">Печенье</a> </li>
+          <li> <a href="Drink.html">Сладкие напитки</a> </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="ad">
+      <div class="adframe">
+        <a href="https://www.mirea.ru/" color="white">
+          <p>Шок! Был найден лучший университет страны...</p>
+          <br>
+          <img src="Img/Mirea.jpg" alt="Рекламка" width="200px">
+        </a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="infoblock">
+        <div class="padder"></div>
+        <div class="info">
+          <h2>Как с нами связаться ?</h2>
+        </div>
+        <div class="contacts">
+            <div class="map">
+              <div class="spin-wrapper">
+                <div class="spinner"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.2896981414815!2d37.47920182467236!3d55.66779830361511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54dc1d23b51c3%3A0x74763ed59c81ccb6!2z0KDQotCjINCc0JjQoNCt0JA!5e0!3m2!1sru!2sru!4v1667662726557!5m2!1sru!2sru" width="400" height="300" style="border:0;border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+          <div class="info">
+            <div>
+              <p class="text"> <b> <i> Сайт разработал студент ИКБО-03-21 Мерзляков Кирилл </i> </b> </p>
+              <p class="text">Связаться с нами можно многими способами:</p>
+              <p class="text">Вы можете приехать по андресу 119454, ЦФО, г. Москва, Проспект Вернадского, д. 78 <br> </p>
+              <p class="text">Можете позвонить по одному из номеров:</p>
+              <div class="phone">
+                <a href="tel:+79167773322">+7 916 777 33 22</a> | <a href="tel:+79852273453">+7 985 227 34 53</a>
+              </div>
+              <p class="text">Или же написать нам на почту: </p>
+              <a class="text" href="mailto:Kirill4421@yandex.ru">Kirill4421@yandex.ru</a>
+              <br>
+              <p class="text">Не забывайте также про наши социальные сети:</p>
+              <br> <br>
+              <div class="links">
+                  <ul class="sci84">
+                    <li> <a href="https://vk.com/"> <i class="fa fa-vk" aria-hidden="true"></i> </a> </li>
+                    <li> <a href="https://web.telegram.org/"> <i class="fa fa-telegram" aria-hidden="true"></i> </a> </li>
+                    <li> <a href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a> </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+          <div style="clear:both;"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div class="container84">
+        <div class="sec84 aboutus84">
+          <h2>О нас</h2>
+          <p>Небольшая провинциальная компания, произволящая десерты. Осуществляем доставку по всей стране и СНГ :=)</p>
+          <ul class="sci84">
+            <li> <a href="https://vk.com/"> <i class="fa fa-vk" aria-hidden="true"></i> </a> </li>
+            <li> <a href="https://web.telegram.org/"> <i class="fa fa-telegram" aria-hidden="true"></i> </a> </li>
+            <li> <a href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a> </li>
+          </ul>
+        </div>
+        <div class="sec84 quicklinks84">
+          <h2>Инфо</h2>
+          <ul>
+            <li> <a href="AboutUs.html">О нас</a> </li>
+            <li> <a href="Contacts.html">Контакты</a> </li>
+            <li> <a href="Delivery.html">Доставка</a> </li>
+
+          </ul>
+        </div>
+        <div class="sec84 quicklinks84">
+          <h2>Товары</h2>
+          <ul>
+            <li> <a href="index.html">Торты</a> </li>
+            <li> <a href="Cookies.html">Печенье</a> </li>
+            <li> <a href="Drink.html">Сладкие напитки</a> </li>
+          </ul>
+        </div>
+        <div class="sec84 contact84">
+          <h2>Контакты</h2>
+          <ul class="info84">
+            <li>
+              <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+              <span>119454, ЦФО, <br>
+                г. Москва, Проспект Вернадского, <br>
+                д. 78</span>
+
+            </li>
+            <li>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <p> <a href="tel:+79167773322">+7 916 777 33 22</a><br>
+              <a href="tel:+79852273453">+7 985 227 34 53</a></p>
+
+            </li>
+            <li>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <p> <a href="mailto:Kirill4421@yandex.ru">Kirill4421@yandex.ru</a></p>
+
+            </li>
+            </ul>
+        </div>
+      </div>
+      <div class="cart">
+        <i class="fa fa-shopping-cart" aria-hidden="true" onclick="window.location.href='Basket.html';" ><span id="purchasesnumber"> <p>0</p></span></i>
+      </div>
+      <script src="JS/purchases.js"></script>
+    </footer>
+    <script src="JS/gallery.js"></script>
+    <script src="JS/zoom.js"></script>
+  </body>
+</html>

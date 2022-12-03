@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../css/Main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../../JS/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"s href="../../Img/icon.png">
+    <title>Fanta Grape</title>
+  </head>
+  <body onload="getNum()">
+
+    <header>
+      <img src="../../Img\Logo.png" alt="AWESOME CAKE - Магазинчик сладостей - Логотип" id="mailLogo">
+      <div id="regBar"> <a href="../../Authentication.html">Войти</a> <a href="../../Registration.html">Регистрация</a></div>
+    </header>
+
+
+    <nav>
+      <div class="navContainer">
+        <a href="../../Delivery.html">Доставка</a>
+      </div>
+      <div class="navContainer">
+        <a href="../../Contacts.html">Контакты</a>
+      </div>
+      <div class="navContainer">
+        <a href="../../AboutUs.html">О нас</a>
+      </div>
+    </nav>
+
+  <section class="top-nav">
+    <div></div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li> <a href="../../Authentication.html">Авторизация</a></li>
+      <li> <a href="../../Registration.html">Регистрация</a></li>
+      <li> <a href="../../AboutUs.html">О нас</a></li>
+      <li> <a href="../../Contacts.html">Контакты</a></li>
+      <li> <a href="../../Delivery.html">Доставка</a></li>
+    </ul>
+  </section>
+
+    <div class="sidebar">
+      <div class="productcat">
+        <h3>Категории Товаров</h3>
+        <hr>
+        <ul>
+          <li> <a href="../../index.html">Торты</a> </li>
+          <li> <a href="../../Cookies.html">Печенье</a> </li>
+          <li> <a href="../../Drink.html">Сладкие напитки</a> </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="ad">
+      <div class="adframe">
+        <a href="https://www.mirea.ru/" color="white">
+          <p>Шок! Был найден лучший университет страны...</p>
+          <br>
+          <img src="../../Img/Mirea.jpg" alt="Рекламка" width="200px">
+        </a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="infoblock">
+        <div class="padder"></div>
+        <div class="info">
+          <h2>Fanta Grape</h2>
+        </div>
+        <div class="contacts">
+          <div class="gallery">
+             <div class="big">
+               <div class="spin-wrapper">
+                <div class="spinner"></div>
+               </div>
+                <div id="img-container">
+                  <img  src="../../Img/Drink/Three/1.jpg" alt="Миниатюра 1" />
+                </div>
+             </div>
+
+          </div>
+
+          </div>
+          <div class="info">
+            <div>
+              <p class="text">Утолите свою жажду по новым вкусовым ощущениям вместе со вкусом Фанта виноград в алюминевой баночке! Уже сейчас!</p>
+              <p class="text"> <strong>Время приготовления</strong> Нет</p>
+              <p class="text"> <strong>Калорийность:</strong> 223 кКал / 100 грамм</p>
+              <p class="text"> <strong>Постаматы:</strong> Доступны</p>
+              <p class="text"> <strong>Объем:</strong> 0.5 Л</p>
+              <p class="text madeof"> <strong>Состав:</strong> Неизвестно</p>
+              <div class="blockBorder">
+                <a href="#" onclick="addpurchases();"><span class="priceblock"><p class="price">159 РУБ</p> </span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottomBorder"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <div class="container84">
+        <div class="sec84 aboutus84">
+          <h2>О нас</h2>
+          <p>Небольшая провинциальная компания, произволящая десерты. Осуществляем доставку по всей стране и СНГ :=)</p>
+          <ul class="sci84">
+            <li> <a href="https://vk.com/"> <i class="fa fa-vk" aria-hidden="true"></i> </a> </li>
+            <li> <a href="https://web.telegram.org/"> <i class="fa fa-telegram" aria-hidden="true"></i> </a> </li>
+            <li> <a href="https://www.youtube.com/"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a> </li>
+          </ul>
+        </div>
+        <div class="sec84 quicklinks84">
+          <h2>Инфо</h2>
+          <ul>
+            <li> <a href="../../AboutUs.html">О нас</a> </li>
+            <li> <a href="../../Contacts.html">Контакты</a> </li>
+            <li> <a href="../../Delivery.html">Доставка</a> </li>
+
+          </ul>
+        </div>
+        <div class="sec84 quicklinks84">
+          <h2>Товары</h2>
+          <ul>
+            <li> <a href="../../index.html">Торты</a> </li>
+            <li> <a href="../../Cookies.html">Печенье</a> </li>
+            <li> <a href="../../Drink.html">Сладкие напитки</a> </li>
+          </ul>
+        </div>
+        <div class="sec84 contact84">
+          <h2>Контакты</h2>
+          <ul class="info84">
+            <li>
+              <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+              <span>119454, ЦФО, <br>
+                г. Москва, Проспект Вернадского, <br>
+                д. 78</span>
+
+            </li>
+            <li>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <p> <a href="tel:+79167773322">+7 916 777 33 22</a><br>
+              <a href="tel:+79852273453">+7 985 227 34 53</a></p>
+
+            </li>
+            <li>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <p> <a href="mailto:Kirill4421@yandex.ru">Kirill4421@yandex.ru</a></p>
+
+            </li>
+            </ul>
+        </div>
+      </div>
+      <div class="cart">
+        <i class="fa fa-shopping-cart" aria-hidden="true" onclick="window.location.href='../../Basket.html';" ><span id="purchasesnumber"> <p>0</p></span></i>
+      </div>
+      <script src="../../JS/purchases.js"></script>
+    </footer>
+    <script src="../../JS/gallery.js"></script>
+    <script src="../../JS/zoom.js"></script>
+  </body>
+</html>
